@@ -1,0 +1,116 @@
+.integrantes-coluna1{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    gap: 5%;
+    
+}
+.integrantes-coluna1 .card{
+    width: 15vw;
+    height: 45vh;
+    transition: 0.5s     cubic-bezier(0.42, 0, 0.65, 1.7)  ;
+    background:linear-gradient(150deg, rgb(20,21,143) 15%, rgb(75, 138, 210) 100% );
+}
+
+.integrantes-coluna1 img{
+    width: 8vw;
+    object-fit: cover;
+    height: 15vh;
+    border-radius: 50%;
+    margin-top: 20%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+}
+.integrantes-coluna1 .card h4{
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-top: 10%;
+    font-size: 1.3rem;
+
+}
+.integrantes-coluna1 .card h5{
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-top: 5%;
+    font-size: 0.8rem;
+ 
+}
+
+.card:hover{
+    width: 14vw;
+    box-shadow:0 15px 40px 15px #4a8cd8 ;
+    transition: 0.5s transform  cubic-bezier(1,-0.01,0,1.01) ;
+}
+
+/*SEGUNDA SEÇAO DE CARDS*/
+.integrantes-coluna2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5%;
+    margin-top: -3%;
+    
+    
+}
+.integrantes-coluna2 .card2{
+    width: 15vw;
+    height: 45vh;
+    background:linear-gradient(150deg, rgb(20,21,143) 15%, rgb(75, 138, 210) 100% );
+    transition: 0.5s    cubic-bezier(0.42, 0, 0.65, 1.7)  ;
+}
+
+
+.integrantes-coluna2 img{
+    width: 8vw;
+    object-fit: cover;
+    height: 15vh;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 20%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.integrantes-coluna2 .card2 h4{
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-top: 10%;
+    font-size: 1.3rem;
+
+}
+.integrantes-coluna2 .card2 h5{
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-top: 5%;
+    font-size: 0.8rem;
+ 
+}
+.card2:hover{
+    width: 14vw;
+    transition: 0.5s transform   cubic-bezier(1,-0.01,0,1.01) ;
+    box-shadow: 0 15px 40px 15px #4a8cd8 ;
+}
+
+.icones a{
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    
+   
+}
+.icones{
+    margin-top: 10%;
+}
