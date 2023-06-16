@@ -5,6 +5,7 @@
 .home{
     margin-top: 50px;
     display: flex;
+    justify-content: space-between;
 }
 h1{
     color: white;
