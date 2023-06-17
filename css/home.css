@@ -1,9 +1,9 @@
 
 .background{
-    background: linear-gradient(120deg, rgb(5, 5, 99) 45%, rgb(36, 86, 144) 100%);
+    background: linear-gradient(120deg, rgb(5, 5, 99) 40%, rgb(36, 86, 144) 100%);
 }
 .home{
-    margin-top: 50px;
+    padding-top: 190px;
     display: flex;
     justify-content: space-between;
     align-items: center;
