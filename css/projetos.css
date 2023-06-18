@@ -23,18 +23,13 @@
     margin-left: auto;
     margin-right: auto;
 }
-.imagem1:hover{
-    animation: animar 2s infinite ease-in-out ;
-}
+
 .imagem2{
     grid-area: img2;
     display: block;
     margin-top:20%;
     margin-left: auto;
     margin-right: auto;
-}
-.imagem2:hover{
-    animation: animar 2s infinite ease-in-out ;
 }
 
 .imagem3{
@@ -45,9 +40,7 @@
     margin-top: 10%;
 }
 
-.imagem3:hover{
-    animation: animar 2s infinite ease-in-out ;
-}
+
 
 .imagem4{
     grid-area: img4;
@@ -57,9 +50,7 @@
     margin-top: 10%;   
 }
 
-.imagem4:hover{
-    animation: animar 2s infinite ease-in-out ;
-}
+
 
 .imagem1 img{
     width: 30vw;
@@ -121,19 +112,4 @@
     font-family: 'Signika Negative', sans-serif;
 }
 
-@keyframes animar {
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-10px) ;
 
-       
-        
-    }
-    100%{
-        transform: translateY(0);
-
-    }
-    
-}
