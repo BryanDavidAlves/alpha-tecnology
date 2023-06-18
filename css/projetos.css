@@ -1,0 +1,139 @@
+
+
+.background-projeto{
+    display: grid;
+    grid-template-columns:  40% 20% 40% ;
+    grid-template-areas: " img1 titulo  img2 " " img3 titulo  img4";
+    background:linear-gradient(150deg, rgb(20,21,143) 15%, rgb(75, 138, 210) 100% );
+    margin-top: 20%;
+
+}
+.parte-projeto{
+    grid-area: titulo;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;  
+}
+
+.imagem1{
+    grid-area: img1;
+    display: block;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagem1:hover{
+    animation: animar 2s infinite ease-in-out ;
+}
+.imagem2{
+    grid-area: img2;
+    display: block;
+    margin-top:20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagem2:hover{
+    animation: animar 2s infinite ease-in-out ;
+}
+
+.imagem3{
+    grid-area: img3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.imagem3:hover{
+    animation: animar 2s infinite ease-in-out ;
+}
+
+.imagem4{
+    grid-area: img4;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;   
+}
+
+.imagem4:hover{
+    animation: animar 2s infinite ease-in-out ;
+}
+
+.imagem1 img{
+    width: 30vw;
+    height: 35vh;
+    object-fit: cover;
+    border: none;
+    border-radius: 10%;
+    animation: ease-in-out;
+
+}
+
+.imagem1 img:hover{
+    box-shadow:0 15px 40px 15px #4a8cd8 ;
+}
+
+.imagem2 img{
+    width: 30vw;
+    height: 35vh;
+    object-fit: cover;
+    border: none;
+    border-radius: 10%;
+}
+
+.imagem2 img:hover{
+    box-shadow:0 15px 40px 15px #4a8cd8 ;
+}
+
+
+.imagem3 img{
+    width: 30vw;
+    height: 35vh;
+    object-fit: cover;
+    border: none;
+    border-radius: 10%;
+}
+
+.imagem3 img:hover{
+    box-shadow:0 15px 40px 15px #4a8cd8 ;
+}
+
+.imagem4 img{
+    width: 30vw;
+    height: 35vh;
+    object-fit: cover;
+    border: none;
+    border-radius: 10%;
+}
+
+
+.imagem4 img:hover{
+    box-shadow:0 15px 40px 15px #4a8cd8 ;
+}
+
+.titulo-projetos{
+    text-align: center;
+    padding-bottom:2%;
+    color: white;
+    font-weight: 400;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+@keyframes animar {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px) ;
+
+       
+        
+    }
+    100%{
+        transform: translateY(0);
+
+    }
+    
+}
