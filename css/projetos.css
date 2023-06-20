@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns:  40% 20% 40% ;
     grid-template-areas: " img1 titulo  img2 " " img3 titulo  img4";
-    background:linear-gradient(150deg, rgb(20,21,143) 15%, rgb(75, 138, 210) 100% );
+    background: linear-gradient(120deg, rgb(5, 5, 99) 40%, rgb(36, 86, 144) 100%);
     margin-top: 20%;
 
 }
@@ -63,7 +63,7 @@
 }
 
 .imagem1 img:hover{
-    box-shadow:0 15px 40px 15px #4a8cd8 ;
+
 }
 
 .imagem2 img{
@@ -75,7 +75,7 @@
 }
 
 .imagem2 img:hover{
-    box-shadow:0 15px 40px 15px #4a8cd8 ;
+ 
 }
 
 
@@ -88,7 +88,7 @@
 }
 
 .imagem3 img:hover{
-    box-shadow:0 15px 40px 15px #4a8cd8 ;
+ 
 }
 
 .imagem4 img{
@@ -101,7 +101,7 @@
 
 
 .imagem4 img:hover{
-    box-shadow:0 15px 40px 15px #4a8cd8 ;
+ 
 }
 
 .titulo-projetos{

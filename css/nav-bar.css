@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -19,6 +21,7 @@ header a{
     text-decoration: none;
     color: white;
     margin-right: 30px;
+
 }
 header img{
     width: 15rem;
