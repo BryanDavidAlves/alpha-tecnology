@@ -47,12 +47,11 @@ input{
   color: #BEDDED;
 }
 .botaoAtivarFale {
-    background-color: #00000000;
+    background-color: transparent;
     color: white;
     border: none;
-    border-radius: 0.25rem;
     cursor: pointer;
-    font-size: 20px;
+    font-size: inherit;
   }
   
   #open-modal {
