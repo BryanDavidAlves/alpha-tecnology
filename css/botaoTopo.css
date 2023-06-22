@@ -1,18 +1,15 @@
 #btnTop{
     position: fixed;
-    bottom: 0px;
+    bottom: 10px;
     right: 20px;
     width: 50px;
     height: 50px;
-    background-color: rgb(237, 243, 249);
+    background-color: rgb(13, 42, 71);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: grab;
-    flex-direction: row;
+    cursor: pointer;
 
-}
-html{
-    scroll-behavior: smooth;
+
 }
