@@ -22,6 +22,11 @@
     margin-top: 20%;
     margin-left: auto;
     margin-right: auto;
+    transition: all 0.5s ease-in-out;
+}
+.imagem1:hover{
+    transform: translateY(-10px);
+    transition: all 0.5s ease-in-out;
 }
 
 .imagem2{
@@ -30,7 +35,14 @@
     margin-top:20%;
     margin-left: auto;
     margin-right: auto;
+    transition: all 0.5s ease-in-out;
 }
+
+.imagem2:hover{
+    transform: translateY(-10px);
+    transition: all 0.5s ease-in-out;
+}
+
 
 .imagem3{
     grid-area: img3;
@@ -38,9 +50,13 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
+    transition: all 0.5s ease-in-out;
 }
 
-
+.imagem3:hover{
+    transform: translateY(-10px);
+    transition: all 0.5s  ease-in-out;
+}
 
 .imagem4{
     grid-area: img4;
@@ -48,6 +64,12 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;   
+    transition: all 0.5s ease-in-out;
+}
+
+.imagem4:hover{
+    transform: translateY(-10px);
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -62,9 +84,6 @@
 
 }
 
-.imagem1 img:hover{
-
-}
 
 .imagem2 img{
     width: 30vw;
@@ -74,11 +93,6 @@
     border-radius: 10%;
 }
 
-.imagem2 img:hover{
- 
-}
-
-
 .imagem3 img{
     width: 30vw;
     height: 35vh;
@@ -87,9 +101,6 @@
     border-radius: 10%;
 }
 
-.imagem3 img:hover{
- 
-}
 
 .imagem4 img{
     width: 30vw;
@@ -97,11 +108,6 @@
     object-fit: cover;
     border: none;
     border-radius: 10%;
-}
-
-
-.imagem4 img:hover{
- 
 }
 
 .titulo-projetos{
