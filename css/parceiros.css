@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     gap: 80px;
+    flex-wrap: wrap;
 }
 .parceiros figure{
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.50);
