@@ -19,28 +19,27 @@
     <link rel="stylesheet" href="css/parceiros.css">
     <link rel="stylesheet" href="css/fale-conosco.css">
     <link rel="stylesheet" href="css/botaoTopo.css">
+    <link rel="stylesheet" href="css/footer.css">
     
 
 
     <title>Alpha Tecnology</title>
 </head>
 <body>
-     
+    <div class="background">
         <header>
             <img src="img/logo.png" alt="">
             <nav>
                 <ul>
-                    <a href="#"><li>HOME</li></a>
+                    <a href="#home"><li>HOME</li></a>
                     <a href="#quemsomos"><li>QUEM SOMOS</li></a>
-                    <a href="#integrantes"><li>INTEGRANTES</li></a>
                     <a href="#projetos"><li>PROJETOS</li></a>
                     <button class="botaoAtivarFale" id="open-modal"><a class="link-modal" href="#">FALE CONOSCO</a></button>
                 </ul>
             </nav>
         </header>
         <!--INICIO HOME-->
-        <div class="background" id="quemsomos">
-        <section class="home">
+        <section class="home" id="home">
             <div class="about"><!--apenas para facilitar o alinhamento dos item-->
                 <h1 >
                     TECNOLOGIA DE  <span> PONTA</span>
@@ -65,9 +64,9 @@
     </section >
     </div>
     <!--FIM HOME-->
-    
+
     <!--INICIO SOBRE NÓS-->
-    <section class="sobre-nos" >
+    <section class="sobre-nos" id="quemsomos" >
         <div>
         <h2 class="sobre"  >Descrição</h2>
 
@@ -225,7 +224,6 @@
 
     </section>
 
-
      <section class="integrantes-coluna2">
         
         <div class="card2">
@@ -331,6 +329,8 @@
             <img src="img/ryan.jpg" alt="">
         </div>
     </section>
+
+    <!--PARCEIROS-->
     <h5>NOSSOS PARCEIROS</h5>
     <section class="parceiros">
      
@@ -341,7 +341,38 @@
             <img src="img/logoZeroUmFinal.png" alt="">
         </figure>
     </section>
+    <!--FIM PARCEIROS-->
 
+    <!--FOOTER-->
+
+    <footer>
+        <div class="left">
+            <figure>
+                <img src="img/logo.png" alt="">
+            </figure>
+            <ul>
+                <li>HOME</li>
+                <li>SOBRE NÓS</li>
+            </ul>
+        </div>
+        <span>
+
+        </span>
+        <div class="right">
+            <ul>
+                <li>PROJETOS</li>
+                <li>FALE CONOSCO</li>
+            </ul>
+        </div>
+   <span class="linha-horizontal"></span>
+    <div class="icon-footer">
+        <a href=""><i class="fa fa-linkedin-square fa-2x" style="color: white;" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-github fa-2x " style="color: white;" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-envelope  fa-2x"style="color: white;"  aria-hidden="true"></i></a>
+    </div>
+    </footer>
+    
+    <!--FIMFOOTER-->
 
     <!--INICIO MODAL-->
     <div id="fade" class="hide"></div>
