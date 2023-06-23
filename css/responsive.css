@@ -95,10 +95,23 @@
 
     /*CARDS*/
 
-    .integrantes-coluna1 .card   {
-        transform: scale(1.1);
-      
-       
+    .integrantes-coluna1 .card img  {
+        height:100px;
+        width: 100px;
+    }
+    .integrantes-coluna1 .card{
+        transform: scale(1.3);
+        margin-left: 20px;    
+    }
+    
+
+    .integrantes-coluna2 .card2 img  {
+        height:100px;
+        width: 100px;
+    }
+    .integrantes-coluna2 .card2{
+        transform: scale(1.3);
+        margin-left: 20px;    
     }
     .informacoes{
         border: 2px solid black;
@@ -113,7 +126,9 @@
         text-align: justify;
         width: 90%;
         height: auto;
-        font-size: 0.90rem;
+        font-size: 0.8rem;
+        font-weight: 800;
+        font-family: 'Signika Negative', sans-serif;
        
     }
 
@@ -135,7 +150,7 @@
        flex-direction: row;
        
        margin-top: 10%;
-       font-size: large;
+       font-size: medium;
     }
     .integrantes-coluna1 .card .back h4{
         font-size: 0.9rem;
@@ -143,9 +158,7 @@
 
 
 
-    .integrantes-coluna2 .card2{
-        transform: scale(1.1);
-    }
+
     .integrantes-coluna2 .card2 .back h4{
         font-size: 0.9rem;
         margin-top: 5%;
@@ -167,7 +180,7 @@
        display: flex;
        flex-direction: row;
        margin-top: 15%;
-       font-size: large;
+       font-size: medium;
     }
     /*FIM CARDS*/
 
@@ -177,36 +190,49 @@
        margin-top: -20%;
     }
 
+    .modal-informacao form  input{
+        font-size: 1.5rem;
+
+    }
+    .modal-informacao form  input::placeholder{
+        font-size: 1.5rem;
+
+    }
+    .modal-informacao form  label{
+        font-size: 1.5rem;
+
+    }
+    .modal-informacao form  textarea{
+        font-size: 1.5rem;
+
+    }
+
 
    
 
   }
 
-  @media screen and (min-width: 1000px) and (max-width: 1499px) and (orientation: landscape) {
+  @media screen and (min-width: 1055px) and (max-width: 1499px) and (orientation: landscape) {
 
     
    
-    
-    .informacoes{
-       border: 2px solid black;
-        width: 100%;
-        border-radius: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      
-       
-  
-        
-        
+    .integrantes-coluna1 .card {
+        min-height:17rem ;
+        min-width: 13rem;
+    }
+
+    .integrantes-coluna2 .card2 {
+        min-height:17rem ;
+        min-width: 13rem;
     }
     .informacoes{
         border: 2px solid black;
-         width: 100%;
+         height: 100%;
          border-radius: 5px;
          display: flex;
          align-items: center;
-         justify-content: center;   
+         justify-content: center;  
+          
      }
     .informacoes p {
         display:flex;
@@ -214,9 +240,20 @@
         text-align: center;
         width: auto;
         height: auto;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
+        font-weight: 800;
+    
+
         
        
+    }
+    .integrantes-coluna1 .card img{
+        width: 100px;
+        height: 100px;
+    }
+    .integrantes-coluna2 .card2 img{
+        width: 100px ;
+        height: 100px;
     }
     .integrantes-coluna1 .card .back .icones{
        display: flex;
@@ -225,7 +262,7 @@
        font-size: small;
     }
     .integrantes-coluna1 .card .back h4{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         margin-top: 6%;
     }
 
@@ -235,12 +272,12 @@
         font-size: 1.3rem;
     }
     .integrantes-coluna1 .card .front h5{
-        font-size: 1.0rem;
+        font-size: 1.1rem;
     }
 
    
     .integrantes-coluna2 .card2 .back h4{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         margin-top: 6%;
     }
 
@@ -258,7 +295,29 @@
         font-size: 1.3rem;
     }
     .integrantes-coluna2 .card2 .front h5{
-        font-size: 1.0rem;
+        font-size: 1.1rem;
+        text-align: center;
+
+    }
+
+
+
+    /*MODAl*/
+
+    .modal-informacao form  input{
+        font-size: 1.5rem;
+
+    }
+    .modal-informacao form  input::placeholder{
+        font-size: 1.5rem;
+
+    }
+    .modal-informacao form  label{
+        font-size: 1.5rem;
+
+    }
+    .modal-informacao form  textarea{
+        font-size: 1.5rem;
 
     }
     

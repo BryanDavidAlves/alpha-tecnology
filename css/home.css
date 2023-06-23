@@ -1,10 +1,12 @@
 
 .background{
     background: linear-gradient(120deg, rgb(36, 86, 144)  40%,rgb(5, 5, 99) 100%);
+    
 }
 .home{
     padding-top: 70px;
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
 }
@@ -63,9 +65,11 @@ h3{
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
+
 .imgastro{
     width: 20rem;
     margin-bottom: 20px;
+    
 }
 @keyframes sombras{
     from{width: 200px; box-shadow: 0 0 8px 9px  #eeeeee;}

@@ -1,117 +1,36 @@
-
-
 .background-projeto{
-    display: grid;
-    grid-template-columns:  40% 20% 40% ;
-    grid-template-areas: " img1 titulo  img2 " " img3 titulo  img4";
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(120deg, rgb(5, 5, 99) 40%, rgb(36, 86, 144) 100%);
     margin-top: 20%;
     padding-bottom: 4%;
 
 }
 .parte-projeto{
-    grid-area: titulo;
-    font-size: 20px;
+    color: white;
     text-align: center;
-    width: 100%;
-    font-weight: 600;
 }
 
 .imagem1{
-    grid-area: img1;
-    display: block;
-    margin-top: 20%;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
     transition: all 0.5s ease-in-out;
-    
+    margin-top: 5%;
 }
 .imagem1:hover{
     transform: translateY(-10px);
     transition: all 0.5s ease-in-out;
 }
-
-.imagem2{
-    grid-area: img2;
-    display: block;
-    margin-top:20%;
-    margin-left: auto;
-    margin-right: auto;
-    transition: all 0.5s ease-in-out;
-}
-
-.imagem2:hover{
-    transform: translateY(-10px);
-    transition: all 0.5s ease-in-out;
-}
-
-
-.imagem3{
-    grid-area: img3;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    transition: all 0.5s ease-in-out;
-}
-
-.imagem3:hover{
-    transform: translateY(-10px);
-    transition: all 0.5s  ease-in-out;
-}
-
-.imagem4{
-    grid-area: img4;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;   
-    transition: all 0.5s ease-in-out;
-}
-
-.imagem4:hover{
-    transform: translateY(-10px);
-    transition: all 0.5s ease-in-out;
-}
-
-
-
 .imagem1 img{
     width: 350px;
     height: auto;
     object-fit: cover;
-    border: none;
     border-radius: 20px;
     animation: ease-in-out;
 
 }
-
-
-.imagem2 img{
-    width: 30vw;
-    height: 35vh;
-    object-fit: cover;
-    border: none;
-    border-radius: 10%;
-}
-
-.imagem3 img{
-    width: 30vw;
-    height: 35vh;
-    object-fit: cover;
-    border: none;
-    border-radius: 10%;
-}
-
-
-.imagem4 img{
-    width: 30vw;
-    height: 35vh;
-    object-fit: cover;
-    border: none;
-    border-radius: 10%;
-}
-
 .titulo-projetos{
     text-align: center;
     padding-bottom:2%;
@@ -135,6 +54,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 400px;
 }
 
 

@@ -2,22 +2,29 @@ footer{
     background-color: #1c1c39;
     margin-top: 150px;
     display: flex;
-    flex-direction: column;
     color: white;
     padding: 100px;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+   
 
 }
 .section-footer{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer figure img{
-    width: 50%;
-    margin-left:5% ;
+    width: 10rem;
+    float: left;
+    margin-left:-508px;
 }
+
+/*
 .left{
     display:flex ;
+    padding-left:100px;
 
 }
 .left ul{
@@ -30,13 +37,17 @@ footer figure img{
 }
 .left ul li{
     margin-bottom: 25px;
+    width: 100px;
 }
+
 .right{
     display:flex ;
+    margin-right: 30%;
+
 
 }
 .right ul{
-    
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +55,8 @@ footer figure img{
 }
 .right ul li{
     margin-bottom: 25px;
-}
+    width: 200px;
+}*/
 footer span{
     background-color: rgba(255, 255, 255, 0.05);
     height: 150px;
