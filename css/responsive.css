@@ -38,5 +38,33 @@
       
     }
 
+    /*sobre nos*/
+    .sobre-nos   .sobre{
+        font-size:3.5rem;
+    }
+    .sobre-nos .texto-sobre{
+        font-size: 2.2rem;
+    }
+    .sobre-nos .card-sobre {
+        width: 22rem;
+        margin: 8% 3% 0% 3%;
+    }
+    .sobre-nos .card-sobre:hover {
+        scale: 1.05;
+    }
+    .sobre-nos .card-sobre img {
+        width: 65%;
+    }
+    .sobre-nos .card-sobre h2 {
+        font-size: 2.8rem;
+    }
+    .sobre-nos .card-sobre p {
+        font-size: 1.9rem;
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }
+
+    /*fim sobre nos*/
+
   }
   
