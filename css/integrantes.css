@@ -34,7 +34,7 @@
     font-weight: 300;
     color: black;
     margin-top: 5%;
-    font-size: 1.3rem;
+    font-size: 1.4em;
 
 }
 .integrantes-coluna1 .card h5{
@@ -43,7 +43,7 @@
     font-weight: 300;
     color: black;
     margin-top: 5%;
-    font-size: 0.8rem;
+    font-size: 1.2em;
  
 }
 .card-content{
@@ -72,6 +72,7 @@
 .card .back h4{
     color: black;
     font-family: 'Signika Negative', sans-serif;
+    font-weight: 700;
 }
 
 .card .back .icones a{
@@ -96,13 +97,13 @@
     height: 70%;
     width: 90%;
     text-align: justify;
-    font-size: 13px;
+    font-size: 1.3em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
     margin-bottom: 10%;
     font-family: 'Signika Negative', sans-serif;
-    font-weight: 700;
+
 } 
 
 
@@ -155,7 +156,8 @@
     font-weight: 300;
     color: black;
     margin-top: 5%;
-    font-size: 1.3rem;
+    font-size: 1.4em;
+
 
 
 }
@@ -165,12 +167,13 @@
     font-weight: 300;
     color: black;
     margin-top: 5%;
-    font-size: 0.8rem;
+    font-size: 1.2em;
 }
 
 .card2 .back h4{
     color: black;
     font-family: 'Signika Negative', sans-serif;
+    font-weight: 700;
 }
 .card2:hover .card-content{
     transform: rotateY(180deg);
@@ -191,16 +194,15 @@
 }
 
 .card2 .back .informacoes{
-    height: 50%;
+    height: 70%;
     width: 90%;
     text-align: justify;
-    font-size: 13px;
+    font-size: 1.3em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
     margin-bottom: 10%;
     font-family: 'Signika Negative', sans-serif;
-    font-weight: 700;
 } 
 
 

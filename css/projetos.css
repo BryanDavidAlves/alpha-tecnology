@@ -6,6 +6,7 @@
     grid-template-areas: " img1 titulo  img2 " " img3 titulo  img4";
     background: linear-gradient(120deg, rgb(5, 5, 99) 40%, rgb(36, 86, 144) 100%);
     margin-top: 20%;
+    padding-bottom: 4%;
 
 }
 .parte-projeto{

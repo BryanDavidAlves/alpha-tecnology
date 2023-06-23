@@ -25,3 +25,6 @@ h5{
     font-family: 'Signika Negative', sans-serif;
     margin: 40px;
 }
+.parceiros figure:hover {
+    scale: 1.02;
+  }

@@ -2,12 +2,15 @@ footer{
     background-color: #1c1c39;
     margin-top: 150px;
     display: flex;
+    flex-direction: column;
     color: white;
     padding: 100px;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 
+}
+.section-footer{
+    display: flex;
 }
 footer figure img{
     width: 50%;
@@ -15,7 +18,7 @@ footer figure img{
 }
 .left{
     display:flex ;
-    
+
 }
 .left ul{
     display: flex;

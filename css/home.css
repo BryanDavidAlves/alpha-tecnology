@@ -1,6 +1,6 @@
 
 .background{
-    background: linear-gradient(120deg, rgb(5, 5, 99) 40%, rgb(36, 86, 144) 100%);
+    background: linear-gradient(120deg, rgb(36, 86, 144)  40%,rgb(5, 5, 99) 100%);
 }
 .home{
     padding-top: 190px;
