@@ -30,13 +30,40 @@
         font-size: 1.2rem;
         font-family: 'Signika Negative', sans-serif;
         font-weight: 600;
+        
 
     }
+    .home .about{
+        height:100%;
+        width: 100%;
+
+    }
+    .home .about h1,h3{
+        margin-top: -5%;
+        object-fit: contain;
+     
+    }
+    .home .about h3{
+        margin-top: 0%;
+    }
+
     .home .imgastro{
         width: 30rem;
         margin-bottom: 20px;
       
     }
+    .disco {
+        width: 50%;
+        height: 70%;
+    }
+    .disco .imgastro{
+        width: 100%;
+        height: 80%;
+        object-fit: contain;
+
+    }
+
+   
 
     /*sobre nos*/
     .sobre-nos   .sobre{
@@ -66,5 +93,174 @@
 
     /*fim sobre nos*/
 
+    /*CARDS*/
+
+    .integrantes-coluna1 .card   {
+        transform: scale(1.1);
+      
+       
+    }
+    .informacoes{
+        border: 2px solid black;
+        margin-top: auto;
+        margin-bottom: auto;
+        border-radius: 5px;
+        
+    }
+    .informacoes p {
+        height: auto;
+        width:auto;
+        text-align: justify;
+        width: 90%;
+        height: auto;
+        font-size: 0.90rem;
+       
+    }
+
+    
+    
+    .integrantes-coluna1 .card .back .informacoes{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-size: 0.9rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+       
+    }
+    .integrantes-coluna1 .card .back .icones{
+       display: flex;
+       flex-direction: row;
+       
+       margin-top: 10%;
+       font-size: large;
+    }
+    .integrantes-coluna1 .card .back h4{
+        font-size: 0.9rem;
+    }
+
+
+
+    .integrantes-coluna2 .card2{
+        transform: scale(1.1);
+    }
+    .integrantes-coluna2 .card2 .back h4{
+        font-size: 0.9rem;
+        margin-top: 5%;
+    }
+
+   
+    .integrantes-coluna2 .card2 .back .informacoes{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+        font-size: 0.9rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+       
+    }
+    .integrantes-coluna2 .card2 .back .icones{
+       display: flex;
+       flex-direction: row;
+       margin-top: 15%;
+       font-size: large;
+    }
+    /*FIM CARDS*/
+
+/*MODAL*/
+    .imagem-astronauta img{
+
+       margin-top: -20%;
+    }
+
+
+   
+
+  }
+
+  @media screen and (min-width: 1000px) and (max-width: 1499px) and (orientation: landscape) {
+
+    
+   
+    
+    .informacoes{
+       border: 2px solid black;
+        width: 100%;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+  
+        
+        
+    }
+    .informacoes{
+        border: 2px solid black;
+         width: 100%;
+         border-radius: 5px;
+         display: flex;
+         align-items: center;
+         justify-content: center;   
+     }
+    .informacoes p {
+        display:flex;
+        width:auto;
+        text-align: center;
+        width: auto;
+        height: auto;
+        font-size: 0.7rem;
+        
+       
+    }
+    .integrantes-coluna1 .card .back .icones{
+       display: flex;
+       flex-direction: row;
+     margin-top: 10%;
+       font-size: small;
+    }
+    .integrantes-coluna1 .card .back h4{
+        font-size: 0.8rem;
+        margin-top: 6%;
+    }
+
+    
+    .integrantes-coluna1 .card .front h4{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .integrantes-coluna1 .card .front h5{
+        font-size: 1.0rem;
+    }
+
+   
+    .integrantes-coluna2 .card2 .back h4{
+        font-size: 0.8rem;
+        margin-top: 6%;
+    }
+
+   
+    
+    .integrantes-coluna2 .card2 .back .icones{
+       display: flex;
+       flex-direction: row;
+       margin-top: 15%;
+       font-size: small;
+    }
+
+    .integrantes-coluna2 .card2 .front h4{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .integrantes-coluna2 .card2 .front h5{
+        font-size: 1.0rem;
+
+    }
+    
   }
   

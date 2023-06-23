@@ -9,14 +9,24 @@
     border-radius: 15px;
     padding: 20px;
     height: 150px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out ;
+}
+.parceiros figure:hover{
+    filter:grayscale(0);
+    transition: all 0.5s ease-in-out;
 }
 figure img{
     width: 25em;
 }
+
+
 .z1{
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out ;
 }
 h5{
     color: rgb(0, 0, 36);

@@ -58,6 +58,10 @@ footer span{
     width: 100%;
     margin-top: 50px;
 }
-.icon-footer{
+.icon-footer {
     color: white;
+    display: flex;
+    gap:50%;
+    align-items: center;
+    justify-content: center;
 }
