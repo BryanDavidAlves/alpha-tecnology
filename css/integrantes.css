@@ -187,10 +187,12 @@
     color: rgb(40, 111, 243)
 }
 .card2 .back .icones{
-    display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 20px;
+    margin-top: -30%;
+    margin-bottom: -30%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .card2 .back .informacoes{

@@ -3,7 +3,7 @@
     background: linear-gradient(120deg, rgb(36, 86, 144)  40%,rgb(5, 5, 99) 100%);
 }
 .home{
-    padding-top: 190px;
+    padding-top: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
