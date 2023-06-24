@@ -1,8 +1,11 @@
 .parceiros{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 80px;
     flex-wrap: wrap;
+    margin-bottom: 50px;
+    height: 400px;
 }
 .parceiros figure{
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.50);
