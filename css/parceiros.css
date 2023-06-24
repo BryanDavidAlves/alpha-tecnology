@@ -1,4 +1,4 @@
-.parceiros{
+.parceiros {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,38 +7,43 @@
     margin-bottom: 50px;
     height: 400px;
 }
-.parceiros figure{
+
+.parceiros figure {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.50);
     border-radius: 15px;
     padding: 20px;
     height: 150px;
     filter: grayscale(100%);
-    transition: all 0.5s ease-in-out ;
-}
-.parceiros figure:hover{
-    filter:grayscale(0);
     transition: all 0.5s ease-in-out;
 }
-figure img{
+
+.parceiros figure:hover {
+    filter: grayscale(0);
+    transition: all 0.5s ease-in-out;
+}
+
+figure img {
     width: 25em;
 }
 
 
-.z1{
+.z1 {
     display: flex;
     justify-content: center;
     align-items: center;
     filter: grayscale(100%);
-    transition: all 0.5s ease-in-out ;
+    transition: all 0.5s ease-in-out;
 }
-h5{
+
+h5 {
     color: rgb(0, 0, 36);
     text-align: center;
     font-size: 1.5rem;
-    font-weight: 600; 
+    font-weight: 600;
     font-family: 'Signika Negative', sans-serif;
     margin: 40px;
 }
+
 .parceiros figure:hover {
     scale: 1.02;
-  }
+}

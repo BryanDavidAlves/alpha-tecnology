@@ -1,32 +1,37 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     padding: 10px 0px;
-    
+
     /*position: fixed; css nav fixa
     width: 100%;
     background: linear-gradient(120deg, rgb(5,5,99) 48%, rgb(13, 64, 130) 100%);*/
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     margin-right: 20px;
 }
-header ul{
+
+header ul {
     display: flex;
     list-style: none;
     align-items: baseline;
 }
-header a{
+
+header a {
     text-decoration: none;
     color: white;
     margin-right: 30px;
 
 }
-header img{
+
+header img {
     width: 15rem;
     height: 6.2rem;
     margin-left: 5%;

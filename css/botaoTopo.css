@@ -1,4 +1,4 @@
-#btnTop{
+#btnTop {
     position: fixed;
     bottom: 10px;
     right: 20px;
@@ -12,44 +12,51 @@
     align-items: center;
     cursor: pointer;
 }
-#btnTop:hover{
+
+#btnTop:hover {
     background-color: rgb(17, 53, 89);
     transition: 0.2s;
 }
-#btnTop span{
+
+#btnTop span {
     width: 40%;
     height: 2px;
     background-color: white;
-    margin: 2px 0px ;
+    margin: 2px 0px;
 }
 
-#btnTop menu{
+#btnTop menu {
     display: none;
     margin-bottom: 180px;
     width: 200px;
     margin-right: 50px;
 }
-#btnTop a{
+
+#btnTop a {
     color: black;
     text-decoration: none;
     font-family: 'Signika Negative', sans-serif;
     font-size: 1.2rem;
 
 }
-#btnTop .botaoAtivarFale{
+
+#btnTop .botaoAtivarFale {
     margin-left: -4px;
 }
-#bgColorJs{
+
+#bgColorJs {
     height: 100%;
     width: 100%;
     position: fixed;
-    background: linear-gradient(137deg, rgba(255, 255, 255, 0.498)  50%,rgb(255, 255, 255) 100%);
+    background: linear-gradient(137deg, rgba(255, 255, 255, 0.498) 50%, rgb(255, 255, 255) 100%);
     display: none;
 }
-#btnTop ul li{
+
+#btnTop ul li {
     margin-bottom: 10px;
 }
-#btnTop #itens span{
+
+#btnTop #itens span {
     width: 9.8%;
     height: 2px;
     background-color: white;

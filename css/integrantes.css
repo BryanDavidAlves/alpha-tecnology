@@ -1,20 +1,22 @@
-.titulo-integrantes{
+.titulo-integrantes {
     margin-top: 10%;
 }
-.integrantes-coluna1{
-    
+
+.integrantes-coluna1 {
+
     margin-bottom: 10%;
     justify-content: center;
     display: flex;
     text-align: center;
     gap: 3%;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
 }
-.integrantes-coluna1 .card{
+
+.integrantes-coluna1 .card {
     width: 10rem;
     height: 15rem;
-    transition: 1s  ease-in   cubic-bezier(0.42, 0, 0.65, 1.7)  ;
-    background-color:white;
+    transition: 1s ease-in cubic-bezier(0.42, 0, 0.65, 1.7);
+    background-color: white;
     box-shadow: 1px 1px 6px 2px black;
     border-radius: 10%;
     border: 1px solid black;
@@ -22,7 +24,7 @@
 }
 
 
-.integrantes-coluna1 img{
+.integrantes-coluna1 img {
     width: 7rem;
     object-fit: cover;
     height: 15vh;
@@ -33,7 +35,8 @@
     margin-right: auto;
     border: 3px solid black;
 }
-.integrantes-coluna1 .card h4{
+
+.integrantes-coluna1 .card h4 {
     text-align: center;
     font-family: 'Signika Negative', sans-serif;
     font-weight: 300;
@@ -42,93 +45,103 @@
     font-size: 1.4em;
 
 }
-.integrantes-coluna1 .card h5{
+
+.integrantes-coluna1 .card h5 {
     text-align: center;
     font-family: 'Signika Negative', sans-serif;
     font-weight: 300;
     color: black;
     margin-top: 5%;
     font-size: 1.2em;
- 
+
 }
-.card-content{
+
+.card-content {
     width: 100%;
     height: 100%;
     position: relative;
-    transform-style:preserve-3d;
+    transform-style: preserve-3d;
     transition: transform 0.8s;
 }
-.card:hover .card-content{
+
+.card:hover .card-content {
     transform: rotateY(180deg);
 }
-.front, .back{
+
+.front,
+.back {
     width: 100%;
     height: 100%;
     position: absolute;
     backface-visibility: hidden;
 }
-.back{
-    background-color:white;
+
+.back {
+    background-color: white;
     transform: rotateY(180deg);
     box-shadow: 0px 0px 1px 1px black;
     border-radius: 10%;
     border: 1px solid black;
 }
-.card .back h4{
+
+.card .back h4 {
     color: black;
     font-family: 'Signika Negative', sans-serif;
     font-weight: 700;
 }
 
-.card .back .icones a{
+.card .back .icones a {
     color: black;
     margin-top: -5%;
-   
+
 }
-.card .back .icones a:hover{
+
+.card .back .icones a:hover {
     color: rgb(40, 111, 243)
 }
-.card .back .icones{
-  
+
+.card .back .icones {
+
     display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: row;
-   gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
 
 
 }
 
-.card .back .informacoes{
+.card .back .informacoes {
     height: 70%;
     width: 90%;
     text-align: justify;
-    font-size:0.9em;
-   border-radius: 5px;
+    font-size: 0.9em;
+    border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
-   
+
     font-family: 'Signika Negative', sans-serif;
 
-} 
+}
 
 /*SEGUNDA SEÇAO DE CARDS*/
-.integrantes-coluna2{
+.integrantes-coluna2 {
     margin-top: 10%;
     margin-bottom: 10%;
     justify-content: center;
     display: flex;
     text-align: center;
     gap: 3%;
-   flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap;
+
+
 }
-.integrantes-coluna2 .card2{
+
+.integrantes-coluna2 .card2 {
     width: 12rem;
     height: 15rem;
-    transition: 1s  ease-in   cubic-bezier(0.42, 0, 0.65, 1.7)  ;
-    background-color:white;
+    transition: 1s ease-in cubic-bezier(0.42, 0, 0.65, 1.7);
+    background-color: white;
     box-shadow: 1px 1px 6px 2px black;
     border-radius: 10%;
     border: 1px solid black;
@@ -136,7 +149,7 @@
 }
 
 
-.integrantes-coluna2 img{
+.integrantes-coluna2 img {
     width: 7vw;
     object-fit: cover;
     height: 15vh;
@@ -148,18 +161,19 @@
     border: 3px solid black;
 }
 
-.integrantes-coluna2 .card2 h4{
+.integrantes-coluna2 .card2 h4 {
     text-align: center;
     font-family: 'Signika Negative', sans-serif;
     font-weight: 300;
     color: black;
-    
+
     font-size: 1.4em;
 
 
 
 }
-.integrantes-coluna2 .card2 h5{
+
+.integrantes-coluna2 .card2 h5 {
     text-align: center;
     font-family: 'Signika Negative', sans-serif;
     font-weight: 300;
@@ -168,40 +182,41 @@
     font-size: 1.2em;
 }
 
-.card2 .back h4{
+.card2 .back h4 {
     color: black;
     font-family: 'Signika Negative', sans-serif;
     font-weight: 700;
 }
-.card2:hover .card-content{
+
+.card2:hover .card-content {
     transform: rotateY(180deg);
 }
 
-.card2 .back .icones a{
+.card2 .back .icones a {
     color: black;
     margin-top: -10%;
-   
+
 }
-.card2 .back .icones a:hover{
+
+.card2 .back .icones a:hover {
     color: rgb(40, 111, 243)
 }
-.card2 .back .icones{
 
-     display: flex;
+.card2 .back .icones {
+
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
 
-.card2 .back .informacoes{
+.card2 .back .informacoes {
     height: 70%;
     width: 90%;
     text-align: justify;
-    
+
     margin-left: auto;
     margin-right: auto;
-   
+
     font-family: 'Signika Negative', sans-serif;
-} 
-
-
+}
