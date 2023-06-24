@@ -1,8 +1,4 @@
 const btn=document.getElementById("btnTop");
-btn.addEventListener("click",function(){
-    window.scrollTo(0,0)
-});
-
 function ocultar(){
     if(window.scrollY>20){
         btn.style.display="flex"
@@ -13,3 +9,14 @@ function ocultar(){
 ocultar()
 
 document.addEventListener('scroll', ocultar)
+
+function clickMenu(){
+    if(itens.style.display == 'block' && bgColorJs.style.display =='block'){
+        itens.style.display ='none'
+        bgColorJs.style.display ='none'
+    }else{
+        itens.style.display = 'block'
+        bgColorJs.style.display ='block'
+    }
+}
+

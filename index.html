@@ -26,6 +26,7 @@
     <title>Alpha Tecnology</title>
 </head>
 <body>
+    <div id="bgColorJs"></div>
     <div class="background">
         <header>
             <img src="img/logo.png" alt="">
@@ -342,7 +343,7 @@
             </figure>
         </div>
 
-        <h5 class="principal-projeto">NOSSO PRINCIPAL PROJETO</h5>
+        <h5 class="principal-projeto">PROJETO EM DESENVOLVIMENTO</h5>
         <div  id="projetos" class="projetos">
         
             <img class="telaProjeto" src="img/tela.png" >
@@ -446,8 +447,24 @@
 
 <!--CRIANDO BOATO PARA TOPO DA PAGINA -->
 
-<div id="btnTop">
-    <i class="fa-solid fa-arrow-up fa-bounce" style="color: #bccff0;"></i>
+<div id="btnTop" onclick="clickMenu()">
+    
+        <!--<i class="fa-solid fa-arrow-up fa-bounce" style="color: #bccff0;"></i>-->
+        <span></span>
+        <span></span>
+        <span></span>
+        <menu id="itens">
+            <ul>
+                <a href="#home"><li>HOME</li></a>
+                <a href="#quemsomos"><li>QUEM SOMOS</li></a>
+                <a href="#projetos"><li>PROJETOS</li></a>
+                <button class="botaoAtivarFale" id="open-modal"><a class="link-modal" href="#"><li>FALE CONOSCO</li></a></button>
+            </ul>
+                <span></span>
+                <span></span>
+                <span></span>
+
+        </menu>
 </div>
 <!--FIM BOTAO TOPO-->
 <script src="js/modal.js"></script>
