@@ -57,4 +57,37 @@
     width: 400px;
 }
 
-
+.projetos{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.conteudoProjeto{
+    margin-left: 0%;
+    width: 900PX;
+}
+.telaProjeto{
+    margin-bottom: 2%;
+    width: 40%;
+    margin-left: 10%;
+    
+}
+.tituloProjeto{
+    color: white;
+    font-size: 40px;
+    width: 450px;
+    font-weight: 700; 
+}
+.descricaoProjeto{
+    color: white;
+    margin-right: 10%;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 300;
+}
+.principal-projeto{
+    color: white;
+    margin-top: 10%;
+    margin-bottom: -5%;
+}

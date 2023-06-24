@@ -1,16 +1,17 @@
-.integrantes-coluna1{
+.titulo-integrantes{
     margin-top: 10%;
+}
+.integrantes-coluna1{
+    
     margin-bottom: 10%;
     justify-content: center;
     display: flex;
     text-align: center;
-    gap: 5%;
+    gap: 3%;
    flex-wrap: wrap;
-   
-    
 }
 .integrantes-coluna1 .card{
-    width: 12rem;
+    width: 10rem;
     height: 15rem;
     transition: 1s  ease-in   cubic-bezier(0.42, 0, 0.65, 1.7)  ;
     background-color:white;
@@ -22,7 +23,7 @@
 
 
 .integrantes-coluna1 img{
-    width: 7vw;
+    width: 7rem;
     object-fit: cover;
     height: 15vh;
     border-radius: 50%;
@@ -111,16 +112,6 @@
 
 } 
 
-
-   
-
-/*.card:hover{
-    width: 16vw;
-    box-shadow:0 15px 40px 15px #4a8cd8 ;
-    transition: 1s transform  cubic-bezier(1,-0.01,0,1.01) ;
-    background:linear-gradient(150deg,rgb(5, 5, 99) 15%, rgb(53, 127, 211) 100% );
-    transform: rotateY(200deg);
-}*/
 /*SEGUNDA SEÇAO DE CARDS*/
 .integrantes-coluna2{
     margin-top: 10%;
@@ -128,7 +119,7 @@
     justify-content: center;
     display: flex;
     text-align: center;
-    gap: 5%;
+    gap: 3%;
    flex-wrap: wrap;
     
     
