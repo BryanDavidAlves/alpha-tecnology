@@ -1,18 +1,26 @@
 textarea {
-  height: 70px;
+  height: 140px;
+  width: 70%;
+  padding: 10px;
   border-radius: 10px;
+  resize:none;
 }
 
+textarea:focus{
+  outline: none;
 
+}
+
+input:focus{
+  outline: none;
+}
 input {
-  border-top: white solid 1px;
-  border-right: white solid 1px;
-  border-left: white solid 1px;
-  border-bottom: gray solid 0.5px;
-  /*border-radius: 40px;
-    height: 50px;*/
-
-  width: 80%;
+  border-top: white solid 0px;
+  border-right: white solid 0px;
+  border-left: white solid 0px;
+  border-bottom: gray solid 1px;
+  padding: 5px;
+  width: 90%;
 }
 
 
@@ -32,17 +40,14 @@ input {
   width: 20%;
   height: 20%;
   object-fit: cover;
-
-
   padding-top: 2%;
-
 }
 
 .modal-body .mensagem-modal h3,
 span {
   display: block;
 
-  font-family: 'Signika Negative', sans-serif;
+
 
 }
 
@@ -55,7 +60,6 @@ span {
   color: white;
   border: none;
   cursor: pointer;
-  font-size: inherit;
 }
 
 #open-modal {
@@ -64,7 +68,6 @@ span {
   border: none;
   padding: 18px;
   font-family: 'Signika Negative', sans-serif;
-  font-weight: 600;
   margin-left: 5%;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -120,10 +123,9 @@ span {
 .modal-body {
   background: linear-gradient(80deg, #141c80 60%, rgb(36, 86, 144) 100%);
   height: 80%;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 10%;
   border-radius: 20px;
-  width: 90%;
+  width: 70%;
   position: fixed;
   display: block;
 }
@@ -182,14 +184,16 @@ span {
 
 .modal-informacao {
   background-color: white;
-  width: 50%;
+  width: 35%;
   height: 80%;
   float: right;
   border-radius: 0px 15px 15px 0px;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-right: 10%;
   position: relative;
   padding-left: 5%;
+  display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 .modal-informacao input {
@@ -197,7 +201,7 @@ span {
   width: 70%;
   font-size: 1.0rem;
   font-family: 'Signika Negative', sans-serif;
-  font-weight: 600;
+
 }
 
 
@@ -219,15 +223,16 @@ label {
 }
 
 .modal-informacao .botao-formulario {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 20%;
-  padding: 2%;
+  padding: 4px;
   border-radius: 8px;
   background-color: transparent;
   border: 1px solid black;
   color: Black;
-  transition: 0.5s all ease-in-out;
-  margin-top: 3%;
-
+  transition: 0.5s ;
 }
 
 .modal-informacao .botao-formulario:hover {
@@ -241,6 +246,7 @@ label {
 #fade.hide {
   opacity: 0;
   pointer-events: none;
+  transition: 0.5s  ;
 }
 
 #modal.hide {
