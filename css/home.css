@@ -4,9 +4,8 @@
 }
 
 .home {
-    padding-top: 70px;
     display: flex;
-
+    height: 100vh;
     justify-content: space-between;
     align-items: center;
 }
@@ -19,9 +18,18 @@ h1 {
     margin-left: 5%;
     font-weight: 700;
 }
-
-h1 span {
+h1 span:nth-child(1){
+    animation: 0.8s linear primeiro;
+}
+@keyframes primeiro{
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+h1 span:nth-child(2) {
     color: #BEDDED;
+    animation: 1.2s ease-in primeiro;
 }
 
 h3 {
@@ -32,6 +40,12 @@ h3 {
     font-weight: 300;
     width: 25em;
     margin-left: 5%;
+    animation: 2.2s ease-in sobre;
+}
+@keyframes sobre{
+    0%,50%{
+        opacity: 0;
+    }
 }
 
 .botao {
@@ -44,6 +58,7 @@ h3 {
     margin-left: 5%;
     margin-top: 50px;
     margin-bottom: 50px;
+    animation: 3.2s linear sobre;
 }
 
 .botao:hover {
